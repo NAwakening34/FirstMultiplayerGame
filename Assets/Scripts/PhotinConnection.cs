@@ -9,6 +9,7 @@ using TMPro;
 public class PhotinConnection : MonoBehaviourPunCallbacks
 {
     [SerializeField] TMP_InputField m_newInputField;
+    [SerializeField] TextMeshProUGUI m_textMeshProUGUI;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +46,7 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
     {
         base.OnJoinRoomFailed(returnCode, message);
         Debug.LogWarning("Hubo un erro al entrar: " + message);
+        m_textMeshProUGUI.text = "no sé encontre el room";
     }
 
     RoomOptions NewRoomInfo()
@@ -67,6 +69,7 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
         if (m_newInputField.text == "")
         {
             Debug.LogWarning("Tiene que dar un nombre al cuarto primero");
+            m_textMeshProUGUI.text = "Tiene que dar un nombre al cuarto primero";
         }
         else
         {
