@@ -34,4 +34,15 @@ public class UIManager : MonoBehaviour
         m_currentScore += p_newScore;
         m_TextMeshProUGUI.text = "Score: " + m_currentScore.ToString();
     }
+
+    public void addPoints()
+    {
+        m_pv.RPC("AddPointsInUI", RpcTarget.AllBuffered, 5);
+    }
+
+    [PunRPC]
+    void AddPointsInUI(int p_newPoints)
+    {
+        updateText(p_newPoints);
+    }
 }
