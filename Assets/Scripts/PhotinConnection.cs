@@ -10,6 +10,8 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
 {
     [SerializeField] TMP_InputField m_newInputField;
     [SerializeField] TextMeshProUGUI m_textMeshProUGUI;
+    [SerializeField] TMP_InputField m_newInputFieldNickname;
+    private bool saved;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +28,6 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         Debug.Log("Se ha entrado al lobby Abstracto");
-
         //PhotonNetwork.JoinOrCreateRoom("TestRoom", NewRoomInfo(), null);
     }
 
@@ -40,13 +41,14 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
     {
         base.OnCreateRoomFailed(returnCode, message);
         Debug.LogWarning("Hubo un erro al crear un room: " + message);
+        m_textMeshProUGUI.text = "Hubo un error al crear el room " + m_newInputField.text;
     }
 
     public override void OnJoinRoomFailed(short returnCode, string message)
     {
         base.OnJoinRoomFailed(returnCode, message);
         Debug.LogWarning("Hubo un erro al entrar: " + message);
-        m_textMeshProUGUI.text = "no sé encontre el room";
+        m_textMeshProUGUI.text = "Hubo un erro al entrar al room " + m_newInputField.text;
     }
 
     RoomOptions NewRoomInfo()
@@ -61,6 +63,18 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
 
     public void JoinRoom()
     {
+        if (m_newInputField.text == "")
+        {
+            Debug.LogWarning("Tiene que dar un nombre al cuarto primero");
+            m_textMeshProUGUI.text = "Tiene que dar un nombre al cuarto primero";
+            return;
+        }
+        if (!saved)
+        {
+            m_textMeshProUGUI.text = "Tienes que guardar tu nickname primero";
+            return;
+        }
+        PhotonNetwork.NickName = m_newInputFieldNickname.text;
         PhotonNetwork.JoinRoom(m_newInputField.text);
     }
 
@@ -70,11 +84,25 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
         {
             Debug.LogWarning("Tiene que dar un nombre al cuarto primero");
             m_textMeshProUGUI.text = "Tiene que dar un nombre al cuarto primero";
+            return;
         }
-        else
+        if (!saved)
         {
-            PhotonNetwork.CreateRoom(m_newInputField.text, NewRoomInfo(), null);
+            m_textMeshProUGUI.text = "Tienes que guardar tu nickname primero";
+            return;
         }
-        
+        PhotonNetwork.CreateRoom(m_newInputField.text, NewRoomInfo(), null);
+    }
+
+    public void SaveNickName()
+    {
+        if (m_newInputFieldNickname.text == "")
+        {
+            m_textMeshProUGUI.text = "Tienes que poner tu nickname primero";
+            return;
+        }
+        PhotonNetwork.NickName = m_newInputFieldNickname.text;
+        m_textMeshProUGUI.text = "Nickname Guardado";
+        saved = true;
     }
 }

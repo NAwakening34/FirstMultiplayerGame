@@ -2,21 +2,24 @@ using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerControl: MonoBehaviour
 {
+    [SerializeField] TextMeshProUGUI m_NicknameUI;
     [SerializeField] int m_speed;
     Rigidbody2D m_rb2D;
     Animator m_myanim;
     Vector2 m_movement;
-    private int m_score;
     PhotonView m_pv;
+    int score;
 
     void Start()
     {
         m_rb2D = GetComponent<Rigidbody2D>();
         m_myanim= GetComponent<Animator>();
         m_pv = GetComponent<PhotonView>();
+        m_NicknameUI.text = m_pv.Owner.NickName;
     }
 
     // Update is called once per frame
@@ -27,7 +30,7 @@ public class PlayerControl: MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (m_pv.IsMine)
+        if (m_pv.IsMine && UIManager.Instance.CanMove)
         {
             float m_movementX = Input.GetAxis("Horizontal");
             float m_movementY = Input.GetAxis("Vertical");
@@ -43,16 +46,9 @@ public class PlayerControl: MonoBehaviour
     {
         if (collision.CompareTag("bolita"))
         {
-            Destroy(collision.gameObject);
-            Debug.Log("consiguio punto");
-            //m_pv.RPC("AddPointsinUI", RpcTarget.AllBuffered, 5);
+            UIManager.Instance.addPoints();
+            UIManager.Instance.addText(m_pv.Owner.NickName + " obtuvo una moneda");
+            Debug.Log(m_pv.Owner.NickName + "obtuvo una moneda");
         }
-        
     }
-
-    //[PunRPC]
-    //void AddPointsinUI(int p_newScore)
-    //{
-    //    UIManager.Instance.updateText(p_newScore);
-    //}
 }
