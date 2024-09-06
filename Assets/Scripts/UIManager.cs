@@ -126,4 +126,15 @@ public class UIManager : MonoBehaviour
     {
         updateText(p_newPoints);
     }
+
+    public void addPoints()
+    {
+        m_pv.RPC("AddPointsInUI", RpcTarget.AllBuffered, 5);
+    }
+
+    [PunRPC]
+    void AddPointsInUI(int p_newPoints)
+    {
+        updateText(p_newPoints);
+    }
 }

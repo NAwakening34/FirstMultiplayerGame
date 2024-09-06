@@ -41,7 +41,11 @@ public class PhotinConnection : MonoBehaviourPunCallbacks
     {
         base.OnCreateRoomFailed(returnCode, message);
         Debug.LogWarning("Hubo un erro al crear un room: " + message);
+<<<<<<< HEAD
         m_textMeshProUGUI.text = "Hubo un error al crear el room " + m_newInputField.text;
+=======
+        m_textMeshProUGUI.text = "Hubo un error al crear el room";
+>>>>>>> 508af5293a76ae535b08318259e9f92cecab3854
     }
 
     public override void OnJoinRoomFailed(short returnCode, string message)

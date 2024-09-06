@@ -42,9 +42,12 @@ MonoBehaviour:
   - AddPointsinUI
   - addPointsInUI
   - AddPointsInUI
+<<<<<<< HEAD
   - Timer
   - FirstTimer
   - UpdateChat
+=======
+>>>>>>> 508af5293a76ae535b08318259e9f92cecab3854
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0
