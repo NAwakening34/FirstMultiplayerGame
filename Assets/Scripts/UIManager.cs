@@ -63,6 +63,12 @@ public class UIManager : MonoBehaviour
         m_pv.RPC("UpdateChat", RpcTarget.All,  message);
     }
 
+    public void addPrivateText(string message)
+    {
+        m_chat.text = m_chat.text + message + "\n";
+        Invoke("removeText", 2f);
+    }
+
     [PunRPC]
     void UpdateChat(string message)
     {
@@ -114,17 +120,6 @@ public class UIManager : MonoBehaviour
     {
         m_currentScore += p_newScore;
         m_Score.text = "Score: " + m_currentScore.ToString();
-    }
-
-    public void addPoints()
-    {
-        m_pv.RPC("AddPointsInUI", RpcTarget.AllBuffered, 5);
-    }
-
-    [PunRPC]
-    void AddPointsInUI(int p_newPoints)
-    {
-        updateText(p_newPoints);
     }
 
     public void addPoints()

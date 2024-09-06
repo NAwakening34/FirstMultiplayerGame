@@ -47,11 +47,8 @@ public class PlayerControl: MonoBehaviour
         if (collision.CompareTag("bolita"))
         {
             UIManager.Instance.addPoints();
-<<<<<<< HEAD
             UIManager.Instance.addText(m_pv.Owner.NickName + " obtuvo una moneda");
             Debug.Log(m_pv.Owner.NickName + "obtuvo una moneda");
-=======
->>>>>>> 508af5293a76ae535b08318259e9f92cecab3854
         }
     }
 }
