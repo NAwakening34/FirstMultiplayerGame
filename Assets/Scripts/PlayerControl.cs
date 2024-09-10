@@ -12,7 +12,8 @@ public class PlayerControl: MonoBehaviour
     Animator m_myanim;
     Vector2 m_movement;
     PhotonView m_pv;
-    int score;
+    [SerializeField]
+    GameObject coins;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class PlayerControl: MonoBehaviour
         m_myanim= GetComponent<Animator>();
         m_pv = GetComponent<PhotonView>();
         m_NicknameUI.text = m_pv.Owner.NickName;
+        coins = GameObject.FindGameObjectWithTag("Coin");
     }
 
     // Update is called once per frame
@@ -47,8 +49,17 @@ public class PlayerControl: MonoBehaviour
         if (collision.CompareTag("bolita"))
         {
             UIManager.Instance.addPoints();
-            UIManager.Instance.addText(m_pv.Owner.NickName + " obtuvo una moneda");
-            Debug.Log(m_pv.Owner.NickName + "obtuvo una moneda");
+            if (coins.transform.childCount == 1)
+            {
+                UIManager.Instance.addText(m_pv.Owner.NickName + " obtuvo la ultima moneda");
+                Debug.Log(m_pv.Owner.NickName + "obtuvo la ultima moneda");
+            }
+            else
+            {
+                UIManager.Instance.addText(m_pv.Owner.NickName + " obtuvo una moneda");
+                Debug.Log(m_pv.Owner.NickName + "obtuvo una moneda");
+            }
+
         }
     }
 }

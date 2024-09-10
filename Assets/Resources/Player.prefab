@@ -365,6 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_NicknameUI: {fileID: 8039315340757478998}
   m_speed: 3
+  coins: {fileID: 0}
 --- !u!50 &1473248157099543714
 Rigidbody2D:
   serializedVersion: 4

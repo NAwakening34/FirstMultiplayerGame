@@ -183,6 +183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -252,6 +256,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -457,6 +465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -660,6 +672,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -910,6 +926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -979,6 +999,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1260,6 +1284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1484,6 +1512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1553,6 +1585,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1758,6 +1794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1898,6 +1938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1968,6 +2012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2037,6 +2085,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2139,6 +2191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2239,6 +2295,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2380,6 +2440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2449,6 +2513,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2554,6 +2622,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2709,7 +2781,7 @@ GameObject:
   - component: {fileID: 1056864777}
   m_Layer: 0
   m_Name: Coins
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2845,6 +2917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2914,6 +2990,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2985,6 +3065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3054,6 +3138,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3125,6 +3213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3195,6 +3287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3264,6 +3360,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3365,6 +3465,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3479,6 +3583,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18288,6 +18396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18425,6 +18537,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18573,6 +18689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18713,6 +18833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18782,6 +18906,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19189,6 +19317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19329,6 +19461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19398,6 +19534,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19469,6 +19609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19538,6 +19682,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19655,6 +19803,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19832,6 +19984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19933,6 +20089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20003,6 +20163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20072,6 +20236,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20174,6 +20342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20243,6 +20415,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20384,6 +20560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20453,6 +20633,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20524,6 +20708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20593,6 +20781,10 @@ PrefabInstance:
     - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
       propertyPath: m_Name
       value: Circle (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998566236343698144, guid: ed380c920a118454b8232809b5713cee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

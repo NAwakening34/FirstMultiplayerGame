@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI m_chat;
     [SerializeField] GameObject m_button;
     int m_currentScore;
-    float m_timeleft = 60, m_timer = 3;
+    float m_timeleft = 180, m_timer = 3;
     bool start, canMove;
     PhotonView m_pv;
 
@@ -46,7 +46,7 @@ public class UIManager : MonoBehaviour
             }
             else
             {
-                m_pv.RPC("Timer", RpcTarget.AllBuffered);
+                m_pv.RPC("Timer", RpcTarget.All);
             }
         }
     }
